@@ -1,0 +1,94 @@
+/* Custom CSS for GeeksforGeeks website */
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0f472f;
+
+
+}
+
+/* Dropdown menu */
+.nav-item dropdown {
+    background-color: #343a40;
+}
+
+.nav-item dropdown {
+    color: #343a40;
+}
+
+/* Search bar */
+.search-bar {
+    margin-top: 20px;
+}
+
+/* Card styling */
+.card {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+}
+/* Styling for the coding practice section */
+.coding-practice-section {
+    padding: 110px 0;
+    background-color: #f8f9fa;
+}
+
+/* Styling for the challenge cards */
+.coding-practice-section .card {
+    margin-bottom: 20px;
+}
+
+.coding-practice-section .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.coding-practice-section .card-text {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+.coding-practice-section .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.coding-practice-section .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-img-top {
+        max-height: 150px;
+    }
+}
