@@ -86,6 +86,14 @@
     background-color: #45a164;
     border-color: #45a164;
 }
+.Web-Development-Section .btn-primary {
+    background-color: #45a164;
+    border-color: #45a164;
+}
+.Web-Development-Section .btn-primary:hover {
+    background-color: #45a164;
+    border-color: #45a164;
+}
 /* Custom styles for the Challenge 1 page */
 
 body {
