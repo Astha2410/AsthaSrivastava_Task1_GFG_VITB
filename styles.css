@@ -53,7 +53,7 @@
 /* Footer */
 .footer {
     background-color: #f8f9fa;
-    padding: 20px 0;
+    padding: 15px 0;
     text-align: center;
 }
 /* Styling for the coding practice section */
@@ -261,81 +261,6 @@ nav a {
 nav a:hover {
     background-color: hsl(180, 1%, 22%);
 }
-/* Add this to your styles.css file or a separate CSS file */
-
-/* Body and container styles */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-}
-
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Card styles */
-.card {
-    border: none;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.card-title {
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-.card-text {
-    font-size: 18px;
-    line-height: 1.6;
-    color: #6c757d;
-}
-
-/* Form styles */
-form {
-    margin-top: 20px;
-}
-
-label {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-.form-control {
-    font-size: 16px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    border: none;
-}
-
-/* Result styles */
-#result {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
-
-/* Responsive styles */
-@media (max-width: 576px) {
-    .card-deck {
-        flex-direction: column;
-    }
-}
-
 
 
 /* Responsive styles */
@@ -362,3 +287,4 @@ label {
         max-height: 150px;
     }
 }
+

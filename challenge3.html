@@ -75,40 +75,45 @@
         </div>
 
     </nav>
-    <header>
-        <h1>Challenge 3: Tree Problem</h1>
-        <p>Solve the tree problem below to test your data structure and algorithm skills.</p>
-    </header>
-
-    <main>
-        <section>
-            <h2>Problem Statement</h2>
-            <p>Given a binary tree, write a function to find the maximum depth (height) of the tree.</p>
-            <pre>
-                // Example:
-                // Input: 
-                //       1
-                //      / \
-                //     2   3
-                //    / \
-                //   4   5
-                // Output: 3
-            </pre>
-            <p>Your task is to implement the function and return the maximum depth of the given binary tree.</p>
+    <div class="container">
+        <section class="challenge-section">
+            <h1 class="challenge-title">Challenge 3 - Tree Problem</h1>
+            <div class="challenge-description">
+                <p>
+                    Given a binary tree, implement a function to find the maximum depth of the tree.
+                </p>
+                <p>
+                    Example:
+                    <br>
+                    Input:
+                    <pre>
+                        1
+                       / \
+                      2   3
+                     / \
+                    4   5
+                    </pre>
+                    Output: 3 (Maximum depth is 3)
+                </p>
+            </div>
+            <div class="challenge-instructions">
+                <h2>Instructions</h2>
+                <ol>
+                    <li>Write a function to calculate the maximum depth of a binary tree.</li>
+                </ol>
+            </div>
+            <div class="code-editor">
+                <h2>Your Solution</h2>
+                <form id="code-form">
+                    <label for="code">Write your solution here:</label>
+                    <textarea id="code" class="form-control" rows="10"></textarea>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="result" id="result"></div>
         </section>
+    </div>
 
-        <section>
-            <h2>Solution</h2>
-            <p>Write your solution to the problem here. You can use any programming language of your choice.</p>
-            <textarea id="solution" class="form-control" rows="8"></textarea>
-            
-        <button id="submitBtn" class="btn btn-primary mt-3">Submit</button>
-        <div id="result" class="mt-3"></div>
-       
-        </section>
-    </main>
-
+    <script src="challenge3.js"></script> <!-- Include your JavaScript code -->
 </body>
-
 </html>
-    
