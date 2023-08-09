@@ -1,0 +1,119 @@
+/* Add your custom styles here */
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.hero-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Card Deck */
+.card-deck {
+    margin-top: 30px;
+}
+
+.card {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.card-body {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+/* Web Development Section */
+.Web-Development-Section {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.card-body a.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-size: 18px;
+}
+
+.card-body a.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Coding Practice Section */
+.coding-practice-section {
+    margin-top: 50px;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
+
+.coding-practice-section .section-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.coding-practice-section .card {
+    border: none;
+    background-color: #f8f9fa;
+}
+
+.coding-practice-section .card-body h5.card-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.coding-practice-section .card-text {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+.coding-practice-section .card-body a.btn-primary {
+    background-color: #007bff;
+    border: none;
+    font-size: 18px;
+}
+
+.coding-practice-section .card-body a.btn-primary:hover {
+    background-color: #0056b3;
+}
